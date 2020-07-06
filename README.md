@@ -2,8 +2,7 @@
 
 > Note: These instructions are adapted from the ONOS P4 tutorial, [here](https://github.com/opennetworkinglab/onos-p4-tutorial).
 
-First, install the prerequisites listed in APPENDIX-Z, and clone the `taurus-onos` 
-repository.
+First, install the prerequisites listed in APPENDIX-Z, and clone this repository.
 
 ```
 cd ~
