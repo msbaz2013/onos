@@ -10,6 +10,12 @@ git clone https://github.com/msbaz2013/onos.git
 cd onos
 ```
 
+Also, append the following line in your `~/.bashrc` file.
+
+```
+export PATH=$PATH:~/onos/scripts:~/onos/scripts/utils
+```
+
 ## Build and Run Projects
 
 Select one of the projects listed under `projects` folder. For example, ...
@@ -17,6 +23,8 @@ Select one of the projects listed under `projects` folder. For example, ...
 cd ~/onos
 export PROJECT_DIR=$PWD/projects/bridge
 ```
+
+
 
 ### 1. Compile the P4 program and ONOS app
 
