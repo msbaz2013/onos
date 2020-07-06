@@ -1,0 +1,8 @@
+#!/bin/bash
+
+P4RUNTIME_SH_IMG=p4lang/p4runtime-sh:latest
+
+docker run -it --rm \
+  -v "$PWD":/workdir -w /workdir \
+  --network=host \
+  $P4RUNTIME_SH_IMG "$@"

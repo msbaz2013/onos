@@ -1,0 +1,7 @@
+#!/bin/bash
+
+GNMI_CLI_IMG=bocon/gnmi-cli:latest
+
+docker run -it --rm \
+  --network=host \
+  $GNMI_CLI_IMG "$@"
