@@ -16,6 +16,8 @@ Also, append the following line in your `~/.bashrc` file.
 export PATH=$PATH:~/onos/scripts:~/onos/scripts/utils
 ```
 
+And, reboot your VM.
+
 ## Build and Run Projects
 
 Select one of the projects listed under `projects` folder. For example, ...
